@@ -205,3 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Bỏ qua môi trường ảo
+venv/
+env/
+.env
+
+# Bỏ qua các file model nặng (nếu file > 100MB)
+*.pkl
+*.pth
+*.zip
+
+# Bỏ qua logs của Tensorboard (theo dõi training)
+tensorboard_logs/
+logs/
+
+# Bỏ qua file cấu hình IDE
+.vscode/
+.idea/
